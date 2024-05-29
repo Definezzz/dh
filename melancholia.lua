@@ -4789,8 +4789,8 @@ do
 		do 
 			utility.drawings["Tracer"] = utility:drawObject("Line", {})
 			utility.drawings["Aim Assist FOV"] = utility:drawObject("Circle", {Visible = false, Radius = 8, Color = Color3.fromRGB(0,0,0), Filled = false})
-			utility.drawings["Sub"] = utility:drawObject("Text", {Outline = true, Text = "melan", Color = Color3.new(1, 1, 1), Size = 13})
-			utility.drawings["Domain"] = utility:drawObject("Text", {Outline = true, Text = "cholia", Color = Color3.fromRGB(132, 108, 188), Size = 13})
+			utility.drawings["Sub"] = utility:drawObject("Text", {Outline = true, Text = "melanc", Color = Color3.new(1, 1, 1), Size = 13})
+			utility.drawings["Domain"] = utility:drawObject("Text", {Outline = true, Text = "holia", Color = Color3.fromRGB(132, 108, 188), Size = 13})
 			--
 			for i,v in pairs(bodyClone:GetDescendants()) do 
 				if v:IsA("BasePart") and v.Name ~= "HumanoidRootPart" then 
