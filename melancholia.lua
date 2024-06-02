@@ -275,7 +275,6 @@ local hitmodule = game:GetObjects("rbxassetid://7255773215")[1]; hitmodule.Paren
 local Offset = game:GetService("GuiService"):GetGuiInset().Y;
 local Math = loadstring(game:HttpGet("https://raw.githubusercontent.com/f1nobe7650/Lynx/main/Math.lua"))(); 
 local NotifiactionSGui = Instance.new("ScreenGui", game.CoreGui); NotifiactionSGui.Enabled = true
-local Remote = ReplicatedStorage.MainEvent
 local NewVector2 = Vector2.new;
 local NewVector3 = Vector3.new;
 local NewCFrame = CFrame.new; 
