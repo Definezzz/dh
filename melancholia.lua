@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = ":)",
-                Text = "улыбается - добрый", 
+                Text = "улыбается = добрый", 
             })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Definezzz/dh/main/prikol.lua"))();
 
